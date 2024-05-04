@@ -1,0 +1,1 @@
+export type LockStatus = "error" | "unknown-status" | "closed" | "open" | "child-safety" | "secured-plugin" | "unsecured-plugin" | "unknown-extended" | "smart-plugin" | "button-pressed" | "missing-status-value"

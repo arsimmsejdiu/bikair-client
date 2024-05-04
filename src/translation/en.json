@@ -1,0 +1,981 @@
+{
+  "drawer_menu": {
+    "trip": "My trips",
+    "payment": "Payment",
+    "promotion": "Promotions",
+    "notification": "Notifications",
+    "sponsor": "Sponsorship",
+    "help": "Help",
+    "setting": "Settings",
+    "logout": "Logout",
+    "subscription": "Packs & Subscription",
+    "details": "Details",
+    "my_cart": "My Cart"
+  },
+  "wording": {
+    "start": "Start trip",
+    "end": "End trip",
+    "confirm": "Confirm",
+    "done": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "retry": "Retry",
+    "yes": "Yes",
+    "no": "No",
+    "pay": "Payment",
+    "connection": "Start",
+    "close": "Close",
+    "applepay": "Apple Pay",
+    "applepaycard": "Add a card",
+    "googlepay": "Google Pay",
+    "contact_us": "Contact us",
+    "card": "Card",
+    "success": "Success",
+    "manual_lock": "Manual lock",
+    "trip": "Trip",
+    "trips": "Trips",
+    "minute": "Minute",
+    "minutes": "Minutes"
+  },
+  "cookies": {
+    "title": "USE OF COOKIES",
+    "description": "We use first-party and third-party cookies to understand the use cases for our app, to be able to improve it, adapt the content to your preferences and personalize our advertisements, marketing and publications on social networks. You can accept all of them, reject them or choose your configuration by clicking on the corresponding buttons",
+    "accept_cookies": "ACCEPT ALL COOKIES",
+    "continue_without_accepting": "CONTINUE WITHOUT ACCEPTING",
+    "customize_preferences": "CUSTOMIZE YOUR PREFERENCE",
+    "necessary": "Necessary",
+    "marketing": "Marketing",
+    "save_and_submit": "SAVE AND SUBMIT"
+  },
+  "special_offer": {
+    "special_offer_title": "Want to save money?",
+    "special_offer_phrase": "Our new Packages are now available ! ",
+    "title_trip": "2-Trip Pass",
+    "description1_trip": "2 trip of 30 min. max/trip",
+    "description2_trip": "30 days availability",
+    "buttonText_trip": "Our Offers",
+    "title_minute": "Minute Packages",
+    "description1_minute": "60, 120 or 240 minutes",
+    "description2_minute": "Minutes counted for each journey",
+    "buttonText_minute": "Our Offers",
+    "title_subscription": "Monthly subscription",
+    "description1_subscription": "40 trips / month",
+    "description2_subscription": "30 minutes max / trip",
+    "buttonText_subscription": "Our Offers"
+  },
+  "bike": {
+    "status": {
+      "rental": {
+        "message": "Please enter the code we sent you by email",
+        "description": "A Berry Province customer has already booked this bike, so you can't use it for the moment.",
+        "description1": "Go back to the map to find another Bik'air available nearby!"
+      },
+      "used": {
+        "message": "Sorry, someone is already using the bike you scanned",
+        "description": "Another Bik'er is already using this bike, so you can't unlock it",
+        "description1": "Go back to the map to find an available Bik'air nearby!"
+      },
+      "maintenance": {
+        "message": "Sorry, this bike is undergoing maintenance",
+        "description": "The Bik'air you have chosen is not ready to be used for the moment. ",
+        "description1": "Go back to the map to find another available (and in good shape) Bik'air, nearby!",
+        "description2": "It needs a short visit to our maintenance workshop before being able to ride again. "
+      },
+      "booked": {
+        "message": "This bike is reserved",
+        "description": "You are not the only one who wants to use this Bik'air! Another Bik'er has already booked this bike, so you can't use it.",
+        "description1": "Go back to the map to find an available Bik'air nearby!"
+      },
+      "experimentation": {
+        "button": "Continue with the trip",
+        "message": "Experimentation mode",
+        "description": "The bike",
+        "description1": "that you entered is in experimentation mode, this gives you 1h free ride"
+      },
+      "not_found": {
+        "message": "This bike is unknown",
+        "description": "The bike",
+        "description1": "that you entered doesn't exist. Please go back to the map to find another Bik'air available nearby"
+      }
+    }
+  },
+  "trip_subscription": {
+    "trip_duration": "Duration of your trip",
+    "trip_discount": "Discount applied",
+    "trip_remaining": "Total remaining"
+  },
+  "rental": {
+    "enter_to_continue": "Enter code to continue",
+    "code_invalid": "The code you entered is not valid, please check your email and try again",
+    "bike_unavailable": "The bike is not available",
+    "error_status": "Error while fetching the status",
+    "enter_code": "Enter code"
+  },
+  "card_info": {
+    "price": {
+      "price1": "Our service is at a single rate of",
+      "price2": "0,15€",
+      "price3": "per minute"
+    },
+    "deposit": {
+      "deposit1": "A ",
+      "deposit2": "50€",
+      "deposit3": " deposit is required and cancelled automatically after 7 days.",
+      "deposit4": "We reserve the right to keep it in case of non respect of the usage rules.",
+      "deposit5": "All promotions applied to subscriptions are valid for the ",
+      "deposit6": "1st month, ",
+      "deposit7": "than",
+      "deposit8": "month"
+    }
+  },
+  "help": {
+    "title": "Help center",
+    "my_tickets": "My tickets",
+    "faq": "FAQ",
+    "chat": "Chat"
+  },
+  "cgu": {
+    "title": "Terms and conditions"
+  },
+  "headers": {
+    "map": "Home",
+    "trips": "Trips history",
+    "start_trip": "Start your trip",
+    "end_trip": "End your trip",
+    "auth_3dsecure": "Payment secured",
+    "payment": "Payment",
+    "payment_add": "Add a card",
+    "help": "Help",
+    "sponsor": "Sponsorship",
+    "promotion": "Promotions",
+    "setting": "Settings",
+    "account": "Account",
+    "terms": "Terms and conditions",
+    "notification": "Notifications",
+    "notifications_list": "Notifications",
+    "notifications_item": "Notifications",
+    "notifications_option": "Settings",
+    "photo": "Parking",
+    "subscription": "Packs & Subscription",
+    "details": "Details",
+    "my_cart": "My Cart",
+    "code": "Enter code"
+  },
+  "subscription_screen": {
+    "the_passes": "Ride Packages",
+    "the_offers": "The Offers",
+    "my_subscriptions": "My subscriptions",
+    "the_subscription": "The Subscriptions",
+    "pass": "Packages",
+    "subscription": "Subscription",
+    "paid": "Paid",
+    "new": "New",
+    "profile": "See my profile",
+    "hello": "Hello",
+    "unpaid": "Unpaid",
+    "my_passes": "My Packs",
+    "done": "OK",
+    "left_trip": "trip left",
+    "add_card": "Add a card before continuing",
+    "provide_card": "Please provide a credit card",
+    "im_sorry": "We are sorry !",
+    "important": "Careful! Deposit of 50€ captured for each trip",
+    "sorry_message": "Pass or Subscription currently not available in your city, we will inform you as soon as we add it to your city",
+    "used_today": "trip used",
+    "resume_subscription": "Resume Subscription",
+    "will_be_cancel": "Will be canceled on",
+    "renewed_on": "Will be renewed on",
+    "valid_until": "Valid until",
+    "error_message": "Your payment was not completed, check your payment method and try again.",
+    "payment_failed": "Payment Failed",
+    "success_message": "Your purchase is confirmed. You can use your 2-trip pass until",
+    "congratulations": "Congratulations!",
+    "describe_pass": "2 trips, valid for 24 hours",
+    "describe_abonnement": "2 trips per day",
+    "usage_per_day": "trips",
+    "go_to_cart": "Go to cart",
+    "usage_per_month": "trips per month",
+    "time_per_trip": "30 min / trip",
+    "trip_rests": "Remaining trips",
+    "plus_offers": "+Offers",
+    "active": "Active",
+    "understood": "Understood",
+    "show_more": "See all details",
+    "show_less": "Hide details",
+    "show_history": "Show my history",
+    "hide_history": "Hide my history",
+    "info": "We can withhold a small amount when you start a journey",
+    "loading_validate_purchase": "Your purchase is being validated ... ",
+    "loading_cancel_purchase": "Your offer is being cancelled ... ",
+    "loading_history_purchase": "Your purchase history is being processed .... ",
+    "confirm": "I confirm that the finalization of the payment will immediately activate this pass",
+    "cancel_subscription": "Your subscription was successfully canceled",
+    "confirm_purchase": "Confirm purchase",
+    "check_before_confirming": "Check before confirming",
+    "explore_more": "Buy",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "canceled": "Canceled",
+    "close": "Close",
+    "expire": "Expires on",
+    "no_trips": "You have used all your trips this month",
+    "no_cart_item": "Missing cart item. Please contact support to report this issue.",
+    "canceled_reason": "What is the reason for the cancellation of your subscription?",
+    "canceled_message": {
+      "EXPENSIVE": "Too expensive",
+      "NOT_USEFUL": "Not very useful / used",
+      "NO_BIKES_NEARBY": "Not enough bikes nearby"
+    }
+  },
+  "notification-screen": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "2_days": "2 days ago",
+    "3_days": "3 days ago",
+    "mark_as_read": "mark all as read",
+    "mark_as_unread": "mark all as unread",
+    "my_notifications": "My notifications",
+    "new_notification": "New notification",
+    "no_notification": "You have no notification for the moment",
+    "sent_at": "sent at",
+    "open": "Open",
+    "hide": "Hide"
+  },
+  "trip_process": {
+    "trip_wait_validation": {
+      "title": "Awaiting validation",
+      "description": "Your trip payment has been recorded and is awaiting approval by our support team."
+    },
+    "trip_paying_validation": {
+      "title": "Your trip payment is being validated",
+      "description": "Please wait till the payment is being validated, this process takes several seconds"
+    },
+    "manual_lock_black": {
+      "title": "Closing the black padlock!",
+      "support": "Contact Support",
+      "tutorial": "Follow the tutorial",
+      "disclaimerLock": "You will be able to close the padlock manually by following the instructions on the next page",
+      "line_1": "We will ask you to take a picture with the padlock closed next.",
+      "line_2": "We will validate the closure manually.",
+      "line_3": "Any failure or if the photo does not clearly certify the closure may result in payment penalties.",
+      "line_4": "Read all our instructions carefully.",
+      "line_5": "You can contact support at any time during opening hours"
+    },
+    "manual_lock_white": {
+      "title": "Closing the white padlock!",
+      "support": "Contact Support",
+      "disclaimerLock": "You cannot manually lock this lock. Please contact support."
+    },
+    "manual_lock_black_tuto": {
+      "title": "How to close the lock?",
+      "support": "Contact Support",
+      "photo": "Take a photo",
+      "disclaimerLock": "To close the lock manually, please follow the steps below. ⬇",
+      "line_1": "Step one, Press the button on the top right of the padlock",
+      "line_2": "Step two, you should hear the padlock unlocking",
+      "line_3": "Step three, manually lower the gray latch to the left of the padlock until you hear a click",
+      "line_4": "Step four, test that the latch is securely locked by attempting to pull it up.",
+      "line_5": "Step five, press the button below to take a photo of the closed bike."
+    },
+    "manual_lock": {
+      "title": "What is the color of the lock on the bike?"
+    },
+    "check_current_trip": {
+      "title": "Checking in",
+      "description": "We verify if everything is ok to start your trip."
+    },
+    "check_deposit": {
+      "title": "Checking the deposit",
+      "description": "A 50€ deposit is required and cancelled automatically after 7 days. \nWe reserve the right to keep it in case of non respect of the usage rules."
+    },
+    "opening_trip": {
+      "title": "Creating a new trip...",
+      "description": "We are starting your trip."
+    },
+    "lock_connecting": {
+      "title": "Opening the lock in progress",
+      "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked.",
+      "trip_open": {
+        "title": "Opening the lock in progress",
+        "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked."
+      },
+      "trip_close": {
+        "title": "Closing lock in progress",
+        "description": "Please wait a few moments, the confirmation of the closed lock is on going."
+      },
+      "pause_open": {
+        "title": "Opening the lock in progress",
+        "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked."
+      },
+      "pause_close": {
+        "title": "Closing lock in progress",
+        "description": "Please wait a few moments, the confirmation of the closed lock is on going."
+      }
+    },
+    "lock_opening": {
+      "title": "Opening the lock in progress",
+      "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked.",
+      "trip_open": {
+        "title": "Opening the lock in progress",
+        "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked."
+      },
+      "pause_open": {
+        "title": "Opening the lock in progress",
+        "description": "Please wait a few moments, the lock of your Bik'air electric bike is being unlocked."
+      }
+    },
+    "creating_trip": {
+      "title": "Creating a new trip...",
+      "description": "We are starting your trip."
+    },
+    "lock_open": {
+      "title": "Lock opened!",
+      "description": "Your Bik'air electric bike is unlocked, enjoy your ride in peace!"
+    },
+    "trip_stop": {
+      "default": {
+        "pause_text": "Lock your bike while keeping your trip open.",
+        "pause_button": "Make a stop",
+        "pause_end": "Resume trip",
+        "end_text": "Lock your bike to complete the trip and be charged.",
+        "end_button": "End your trip"
+      },
+      "rental": {
+        "pause_text": "Lock your bike without ending the rental.",
+        "pause_button": "Make a stop",
+        "pause_end": "Resume trip",
+        "end_text": "Lock your bike and end the rental.",
+        "end_button": "End your trip"
+      }
+    },
+    "end_trip": {
+      "total": "Total",
+      "lock": "Lock",
+      "discount": "Discount",
+      "total_used": "Total used",
+      "pay": "Lock your ebike",
+      "tips": "You can lock your bike without ending your trip.",
+      "trip_duration": "Trip duration ",
+      "disclaimerPark": {
+        "line_1": " !! CAREFUL !! ",
+        "line_2": "Your 50€ deposit will be AUTOMATICALLY retained if:",
+        "line_3": "You park the Bik'air electric bike in a private place and inaccessible to others and to our teams",
+        "line_4": "You park the Bik'air electric bike in an inappropriate place  ",
+        "line_5": "You park the Bik'air electric bike in a place that hinders pedestrian and city traffic."
+      },
+      "disclaimerLock": "Press the \"lock\" button below and then close the lock manually to lock the bike and stop invoicing.",
+      "error_zone": "You are not in the parking area. You need to park inside the blue line area to finish your trip.",
+      "msg_close": "You can now close your bike/lock",
+      "msg_open": "Your lock/bike is now open",
+      "minutes": "minutes",
+      "trip": "Trips",
+      "default": {
+        "total": "Total",
+        "lock": "Lock",
+        "discount": "Discount",
+        "total_used": "Total used",
+        "pay": "Lock your ebike",
+        "tips": "You can lock your bike without ending your trip.",
+        "trip_duration": "Trip duration ",
+        "disclaimerPark": {
+          "line_1": " !! CAREFUL !! ",
+          "line_2": "Your 50€ deposit will be AUTOMATICALLY retained if:",
+          "line_3": "You park the Bik'air electric bike in a private place and inaccessible to others and to our teams",
+          "line_4": "You park the Bik'air electric bike in an inappropriate place  ",
+          "line_5": "You park the Bik'air electric bike in a place that hinders pedestrian and city traffic."
+        },
+        "disclaimerLock": "Press the \"lock\" button below and then close the lock manually to lock the bike and stop invoicing.",
+        "error_zone": "You are not in the parking area. You need to park inside the blue line area to finish your trip.",
+        "msg_close": "You can now close your bike/lock",
+        "msg_open": "Your lock/bike is now open",
+        "minutes": "minutes"
+      },
+      "rental": {
+        "total": "Total",
+        "lock": "Lock",
+        "discount": "Discount",
+        "total_used": "Total used",
+        "pay": "Lock your ebike",
+        "tips": "You can lock your bike without ending your rental in previous menu.",
+        "trip_duration": "Rental duration ",
+        "disclaimerPark": {
+          "line_1": " !! CAREFUL !! ",
+          "line_2": "Your rental will end.",
+          "line_3": "You will be charged normally (0,15€/min) if you take a bike afterwards.",
+          "line_4": "If you just want to secure the bike and keep your rental go back and select 'Make a stop'    ",
+          "line_5": "The 50€ deposit will be taken if you park the Bik'air electric bike in a place that hinders the pedestrian and urban traffic."
+        },
+        "disclaimerLock": "Press the \"lock\" button below and then close the lock manually to lock the bike and stop rental.",
+        "error_zone": "You are not in the parking area. You need to park inside the blue line area to finish your trip.",
+        "msg_close": "You can now close your bike/lock",
+        "msg_open": "Your lock/bike is now open",
+        "minutes": "minutes"
+      }
+    },
+    "trip_end_check": {
+      "title": "Checking out",
+      "description": "We check that everything is in order to finish the trip.",
+      "error_zone": "You are not in a valid parking zone. Please move the bike to an authorized zone for the end of the journey."
+    },
+    "trip_closing": {
+      "title": "End of your trip",
+      "description": "Please wait a few moments, so that you can close the lock manually.",
+      "trip_close": {
+        "title": "End of your trip",
+        "description": "Please wait a few moments, so that you can close the lock manually."
+      },
+      "pause_close": {
+        "title": "Pausing trip",
+        "description": "Please wait a few moments, so that you can close the lock manually."
+      }
+    },
+    "lock_closing": {
+      "title": "Please close the lock",
+      "description": "You can now close the lock manually using the left latch.",
+      "trip_close": {
+        "title": "Please close the lock",
+        "description": "You can now close the lock manually using the left latch. Make sure that the yellow rim of the wheel does not block the closure"
+      },
+      "pause_close": {
+        "title": "Please close the lock",
+        "description": "You can now close the lock manually using the left latch."
+      }
+    },
+    "trip_paying": {
+      "title": "Payment of your current trip is being processed...",
+      "description": "This can take several seconds..."
+    },
+    "trip_paid": {
+      "title": "Payment successed!",
+      "description": "Your payment is done, see you soon for a new trip!"
+    },
+    "trip_review": {
+      "title": "How was your trip?",
+      "description": "Choose a 5-star rating",
+      "placeholder": "Any comment?",
+      "button": "Send",
+      "problem": "I encountered a problem?",
+      "issues": {
+        "MECHANICAL": "Mechanical issue",
+        "BATTERY": "Battery issue (flat / empty)",
+        "TRIP_ENDED": "To complete my journey"
+      }
+    },
+    "trip_pause": {
+      "default": {
+        "title": "Feel like making a stop?",
+        "new_line_1": "Lock the Bik'air ebike without finishing your trip.",
+        "new_line_2": "CAREFUL : your trip is still on going, you will continue to be charged for the time of the break.",
+        "new_line_3": "BUT you will keep your Bik'air bike the time of your stop whether you are out of the zone or not (limit visible by the blue lines on the application)."
+      },
+      "rental": {
+        "title": "Envie de faire un arrêt ?",
+        "new_line_1": "Lock the lock of the Bik'air bike without finishing your rental.",
+        "new_line_2": "If you wish to end your rental and stop the counter, go back and click on the 'End your trip' button",
+        "new_line_3": "Do not park the Bik'air electric bicycle in a place that obstructs pedestrian and city traffic."
+      },
+      "loading": "Connecting to lock",
+      "lock": "Lock your bike",
+      "unlock": "Unlock your bike"
+    },
+    "lock_timeout": {
+      "title": "Timeout locking your bike",
+      "description": "Please restart your Bluetooth then retry.",
+      "trip_open": {
+        "title": "Timeout unlocking your bike",
+        "description": "Please restart your Bluetooth.Your trip will be automaticaly cancel after 2 failed attempts."
+      },
+      "trip_close": {
+        "title": "Timeout locking your bike",
+        "description": "Please restart your Bluetooth then retry."
+      },
+      "pause_open": {
+        "title": "Timeout unlocking your bike",
+        "description": "Please restart your Bluetooth then retry."
+      },
+      "pause_close": {
+        "title": "Timeout locking your bike",
+        "description": "Please restart your Bluetooth then retry."
+      }
+    },
+    "trip_cancel": {
+      "title": "We are canceling your trip",
+      "description": "This can take several seconds..."
+    },
+    "lock_retry_closing": {
+      "title": "Oops you waited too long",
+      "description": "Click on the button below to retry closing your trip",
+      "trip_close": {
+        "title": "Oops you waited too long",
+        "description": "Click on the button below to retry closing your trip"
+      },
+      "pause_close": {
+        "title": "Oops you waited too long",
+        "description": "Click on the button below to retry closing your trip"
+      }
+    },
+    "check_unpaid_trip": {
+      "title": "Checking unpaid trip",
+      "description": "We verify you have no unpaid trip."
+    },
+    "check_current_bike": {
+      "title": "Checking bike",
+      "description": "Verifying if bike is available and not booked."
+    },
+    "checking_deposit": {
+      "title": "Checking your deposit",
+      "description": "Before the start of any trip, a temporary deposit of 50€ is required. We need to authenticate your means of payment for security reasons."
+    },
+    "lock_close": {
+      "title": "Lock closed!",
+      "description": "Your Bik'air electric bike is locked!"
+    },
+    "unlock_timeout": {
+      "title": "Timeout unlocking your bike",
+      "description": "Please restart your Bluetooth.Your trip will be automaticaly cancel after 2 failed attempts."
+    },
+    "verify_lock_closed": {
+      "title": "Close your lock MANUALLY",
+      "description": "Please ensure you have closed the lock manually."
+    },
+    "trip_paying_after": {
+      "title": "Payment of your last trip...",
+      "description": "You need to pay for your last trip to start a new one!"
+    },
+    "trip_finish_payment": {
+      "title": "Incomplete payment",
+      "description": "Your payment has not been completed, please click on finish",
+      "button": "Finish payment"
+    },
+    "trip_unpaid": {
+      "title": "Trip on hold",
+      "description": "You are offline..."
+    },
+    "trip_payment_error": {
+      "add_card": "Change my credit card",
+      "title": "Payment error",
+      "description": "Your payment method could not be validated. Please make sure you have the necessary funds or add another credit card in the Payment page of the application."
+    },
+    "deposit_uncaptured": {
+      "title": "Your deposit cannot be captured",
+      "description": "You need a deposit to start a trip. Please ensure to have enough funds or call your bank."
+    },
+    "unlock_failed": {
+      "title": "Failed to open lock",
+      "description": "Please check your bluetooth connection. Restart it then try again."
+    },
+    "lock_connection_cancel": {
+      "title": "Trip canceled",
+      "description": "You canceled lock connection attempts."
+    },
+    "begin_failed": {
+      "title": "Trip canceled",
+      "description": "Something went wrong, please contact support as we can help you ."
+    },
+    "start_failed": {
+      "title": "Trip canceled",
+      "description": "Une erreur est survenue, veuillez contacter le support afin de résoudre ce problème dans les plus brefs delais."
+    },
+    "trip_payment_hold": {
+      "title": "You are offline !",
+      "description": "We will try again when you get back online"
+    },
+    "error_connect": {
+      "title": "Oops, an error has occurred...",
+      "description": "We are sorry but an error occurred while connecting to the Bik'air electric bike."
+    },
+    "error": "Oops, an error has occurred..."
+  },
+  "tips": {
+    "title": "Welcome at Bik'Air",
+    "text": "Freedom is yours! \nCreate your account to use our self-service electric bikes without stations in your city!",
+    "map": "See the map."
+  },
+  "auth": {
+    "title": "Verification",
+    "instruction": "Please enter the code you received via sms",
+    "email_instruction": "Please enter the code you received via email",
+    "code": "Code",
+    "email": "Email",
+    "submit": "Continue",
+    "enter": "Enter the sms code",
+    "resend": "Resend via email",
+    "not_received": "Didn't receive an SMS code?"
+  },
+  "phone_verify": {
+    "title": "Identification",
+    "instruction": "Please enter your phone number",
+    "phone": "Your phone number",
+    "submit": "Continue",
+    "valid": "Enter your phone number",
+    "error": "Something went wrong, please try again."
+  },
+  "support": {
+    "labelA": "Damaged bike",
+    "labelB": "Bicycle not parked properly",
+    "labelC": "Privatized bike",
+    "labelD": "Other",
+    "selection": "Select an issue",
+    "selectionPH": "What is the issue?",
+    "bikeNumber": "Bike number",
+    "address": "Address",
+    "addressPH": "Type the bike address",
+    "description": "Description",
+    "descriptionPH": "Describe the issue that you encountered",
+    "partDamaged": "Damaged pieces",
+    "error": "Please, fill all the fields to continue.",
+    "success": "Your message has been sent. You will receive an answer by email.",
+    "send": "Send"
+  },
+  "booking": {
+    "book": "Book 10 mins for free",
+    "cancelbook": "Cancel booking",
+    "autonomy": "Autonomy"
+  },
+  "home_map": {
+    "lock": "End the trip",
+    "unlock": "Unlock",
+    "login": "Authenticate"
+  },
+  "trip": {
+    "stop": {
+      "default": {
+        "pause_text": "Do you want to",
+        "pause_button": "Make a stop",
+        "end_text": "Or",
+        "end_button": "End your trip"
+      },
+      "rental": {
+        "pause_text": "Do you want to",
+        "pause_button": "Make a stop",
+        "end_text": "Or",
+        "end_button": "End your trip"
+      }
+    },
+    "pause": {
+      "default": {
+        "title": "Feel like making a stop?",
+        "new_line_1": "Lock the Bik'air ebike without finishing your trip.",
+        "new_line_2": "CAREFUL : your trip is still on going, you will continue to be charged for the time of the break.",
+        "new_line_3": "BUT you will keep your Bik'air bike the time of your stop whether you are out of the zone or not (limit visible by the blue lines on the application)."
+      },
+      "rental": {
+        "title": "Envie de faire un arrêt ?",
+        "new_line_1": "New line text goes here for rental",
+        "new_line_2": "New line text goes here for rental",
+        "new_line_3": "New line text goes here for rental"
+      },
+      "lock": "Lock your bike",
+      "unlock": "Unlock your bike"
+    }
+  },
+  "trip_pause": {
+    "title": "Feel like making a stop?",
+    "line_1": "Lock your lock without stopping your trip.",
+    "line_2": "This allows you to park",
+    "line_3": " TEMPORARILY ",
+    "line_4": "inside or outside the area.",
+    "line_5": "Please note that you will NOT be able to finish your journey outside the service's area of use (limited to cities with blue lines).",
+    "line_6": "Remember to close your lock when you stop! And to open it to resume your trip!",
+    "new_line_1": "Lock the Bik'air ebike without finishing your trip.",
+    "new_line_2": "CAREFUL : your trip is still on going, you will continue to be charged for the time of the break.",
+    "new_line_3": "BUT you will keep your Bik'air bike the time of your stop whether you are out of the zone or not (limit visible by the blue lines on the application).",
+    "lock": "Lock your bike",
+    "unlock": "Unlock your bike",
+    "start_pause": "Make a stop",
+    "end_pause": "Resume the trip",
+    "lock_unknown": "Lock/Unlock"
+  },
+  "bluetooth_error": {
+    "title": "Connection to lock failed.",
+    "line_1": "Restart your bluetooth and try again.",
+    "button": "Restart Bluetooth",
+    "lock_error": "Have you checked that your bluetooth is enabled? And that you've authorized your bluetooth in the mobile app settings?"
+  },
+  "permission_error": {
+    "title": "$t(permission_error.{{permission}}) permission not allowed.",
+    "line_1": "You have not granted permission to use $t(permission_error.{{permission}}).",
+    "line_2": "We need this permission in order to work properly.",
+    "button": "Authorization settings",
+    "bluetooth": "Bluetooth",
+    "gps": "Location",
+    "camera": "Camera"
+  },
+  "start_trip": {
+    "title": "Scan the QR Code to unlock the bike",
+    "placeholder": "Enter bike number manually ex: (258)",
+    "already_on_trip": "Your already have an open trip"
+  },
+  "parking_photo": {
+    "title": "Take a photo of your parked bike",
+    "title1": "The photo should show the bike, the parking lot markings and the surroundings. Take a step back to get a good picture!",
+    "title_photo": "Compliant Photo ?",
+    "desc_photo": "If you do not park properly, you risk a parking fine of € 10.00",
+    "valid": "Confirm",
+    "retake": "Resume photo"
+  },
+  "end_trip": {
+    "total": "Total",
+    "lock": "Lock",
+    "discount": "Discount",
+    "total_used": "Total used",
+    "pay": "Lock your ebike",
+    "tips": "You can lock your bike without ending your trip.",
+    "trip_duration": "Trip duration ",
+    "disclaimerPark": {
+      "line_1": " !! CAREFUL !! ",
+      "line_2": "Your 50€ deposit will be AUTOMATICALLY retained if:",
+      "line_3": "You park the Bik'air electric bike in a private place and inaccessible to others and to our teams",
+      "line_4": "You park the Bik'air electric bike in an inappropriate place  ",
+      "line_5": "You park the Bik'air electric bike in a place that hinders pedestrian and city traffic."
+    },
+    "disclaimerLock": "Press the \"lock\" button below and then close the lock manually to lock the bike and stop invoicing.",
+    "error_zone": "You are not in the parking area. You need to park inside the blue line area to finish your trip.",
+    "msg_close": "You can now close your bike/lock",
+    "msg_open": "Your lock/bike is now open",
+    "minutes": "minutes"
+  },
+  "permissions": {
+    "location": {
+      "title": "Grant access to your GPS",
+      "message": "Bik'air needs to know your position to find available bikes around you.",
+      "askPermissionsNeutral": "Later",
+      "askPermissionsNegative": "Cancel",
+      "askPermissionsPositive": "Autorize",
+      "error": "We need your geolocation to access all the options of this application."
+    },
+    "camera": {
+      "title": "Permission to access the camera",
+      "message": "The application requires access to your camera to take pictures and scan QR codes.",
+      "buttonNeutral": "Later",
+      "buttonNegative": "Cancel",
+      "buttonPositive": "Autorise",
+      "authorize_camera": "Please authorize camera"
+    }
+  },
+  "alert": {
+    "bluetooth": {
+      "open": "Active your bluetooth to start a trip",
+      "close": "Active your bluetooth to end a trip",
+      "pause": "Please power on your Bluetooth",
+      "message": "To unlock your bike and start a ride, remember to activate the Bluetooth on your phone. Remember to keep your bluetooth activated to finish your ride.",
+      "error": "Connection to lock failed. Restart your bluetooth and try again."
+    },
+    "location": {
+      "title": "Location inactive",
+      "message": "Bik'air need your geolocation to use the service"
+    },
+    "network": {
+      "online": "You must be online to start a new trip"
+    },
+    "lock": {
+      "trip_closed": "If you want to complete your trip, validate the end of the trip by clicking on the blue button at the bottom to stop billing \uD83D\uDE42"
+    }
+  },
+  "discounts": {
+    "placeholder": "Add a promo-code here",
+    "submit": "ADD PROMO-CODE",
+    "no_code": "You don't have promo-code yet",
+    "item": {
+      "rental": {
+        "message": "This code grant you access to Bik'Air rental.",
+        "expired_at": "Expire at: ",
+        "single": "Single use."
+      },
+      "title": "Discount",
+      "expiration": "Expiration date",
+      "message": {
+        "usage_multiple": "Multiple usage",
+        "usage_single": "Single use",
+        "no_date": "No expiration date",
+        "beginning": "This code give you access at ",
+        "end": "valid until",
+        "min_remaining": " minutes remaining",
+        "expired_at": "Expired at: ",
+        "MINUTES": " free minutes",
+        "ONE_SHOT": "free minutes",
+        "SPONSOR": "free minutes",
+        "PACK": " free minutes",
+        "PERCENT": "% discount",
+        "ABSOLUTE": " reduction"
+      }
+    },
+    "PREMIUM": "Subscriptions",
+    "DAY_PASS": "Pass",
+    "DAILY_SUBSCRIPTION": "Daily Subscription",
+    "PACK_MINUTES": "Pack minute",
+    "GIFT_CARD": "Gift Card",
+    "PACK_TRIPS": "Pack Trips"
+  },
+  "payment": {
+    "expires": "Expires end",
+    "add_cart": "Please add a credit card",
+    "deposit": {
+      "temporary": "Temporary deposit",
+      "title": "At the beginning of the trip a bank footprint on 7 days of 50€ is mandatory.",
+      "text": "It is kept for 7 days so that it is not required for each new trip and will be returned automatically afterwards.",
+      "text2": "If the Bik'air electric bike is ",
+      "text3": "abandoned with the lock open ",
+      "text4": "or ",
+      "text5": "in a privatized place and inaccessible for the customers and the Bik'air teams ",
+      "text6": "damaged ",
+      "text7": "or ",
+      "text8": "badly parked ",
+      "text9": ": the deposit of 50€ will be AUTOMATICALLY retained."
+    },
+    "send": "Save your card",
+    "card": "Choose card",
+    "addModifyCard": "Add/Modify card",
+    "title": "Payment",
+    "popup": "Do you really want to delete your payment method?",
+    "delete_card": "Delete card",
+    "add_card": "We need to save your card to use all our services.",
+    "error_add_card": "Error while adding your card.",
+    "or": "Or",
+    "success": "Your payment method is successfully set up for future payments!",
+    "disable_delete": "You cannot delete your card while on trip",
+    "error_3Dsecure_deposit": "You don't have sufficient fund to start a trip. A deposit of 50€ is mandatory. This deposit will be returned once the trip is finished and paid.",
+    "error_3Dsecure_payment": "There was a problem during payment process, we will try again later."
+  },
+  "sponsor": {
+    "subtitle": "Sponsor a friend and get a free ride each!",
+    "paragraphe": "Offer a 15-mins free ride to a friend by inviting him/her to discover Bik'air and win a 15-mins free ride on his/her first use.",
+    "label": "Share your sponsor code :",
+    "first_line": "Sponsore a friend and get a ",
+    "spam_first_line": "free ride each !",
+    "second_line": "You are a sponsor ? Share your sponsor code and win a ",
+    "spam_second_line": "15 minute free trip",
+    "third_line": "You are a sponsored ? Use your sponsor code and win a ",
+    "spam_third_line": "15 minute free trip"
+  },
+  "trips": {
+    "refund": "Refund",
+    "noTrip": "You don't have any trips yet !",
+    "duration": "Duration",
+    "minutes": "minutes",
+    "start": "Start",
+    "end": "End",
+    "status": {
+      "OPEN": "Open",
+      "CLOSED": "Closed",
+      "FAILED": "Canceled",
+      "ON_HOLD": "On hold",
+      "FREE_TRIP": "Paid",
+      "CANCEL": "Cancel",
+      "PAYMENT_IN_PROGRESS": "Payment in progress",
+      "PAYMENT_SUCCESS": "Paid",
+      "PAYMENT_FAILED": "Payment failed",
+      "PAYMENT_INV_CREATED": "Payment in progress",
+      "PAYMENT_HOLD_CONFIRM": "Payment in progress",
+      "WAIT_VALIDATION": "Wait confirmation",
+      "EXPERIMENTATION": "Experimentation"
+    },
+    "promotion": "Promotion : ",
+    "pass_subs": "Pass & Subscriptions: ",
+    "percent_reduction": "% discount",
+    "minutes_reduction": " free minutes",
+    "enter_code": "Enter your promo code here"
+  },
+  "send_email": {
+    "title": "Please enter your email address"
+  },
+  "account": {
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "email": "Email",
+    "birthday": "Birth date",
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "placeholder_day": "DD",
+    "placeholder_month": "MM",
+    "placeholder_year": "YYYY",
+    "phone": "Phone",
+    "residence": "Residence",
+    "vacancies": "Visitor",
+    "save": "Save",
+    "delete_account": "Delete my account",
+    "create": "Create my account",
+    "city": "City",
+    "checkbox_terms": "I understand and agree with the General Conditions of Access and Use of the Bik'air service.",
+    "confirm_delete_account": "Are your sure ?",
+    "delete_account_info": "Are you sure you want to delete your account ?",
+    "select_city": "Select a city",
+    "error": "Thank you to fill all the fields",
+    "error_email": "Email format incorrect",
+    "error_birthdate": "Please provide your birthdate",
+    "error_lname_fname": "Please provide your lastname/firtname",
+    "error_phone": "Please provide your phone",
+    "phone_number_not_valid": "Phone number not valid",
+    "error_city": "Please provide a city",
+    "error_terms": "Please accept the terms and conditions",
+    "error_age": "You cannot use Bik'Air services, you are under 16!"
+  },
+  "contact": {
+    "question": "Need help?",
+    "callUs": "Call us at",
+    "open_hours": "Between 8am and 6pm",
+    "phoneNumber": "+33617157111",
+    "phoneNumberText": "+33 6 17 15 71 11"
+  },
+  "tutorial": {
+    "slide1": {
+      "title": "Welcome to you Bik'er !",
+      "description": "To use our electric bikes, it's very simple."
+    },
+    "slide2": {
+      "title": "Without terminals",
+      "description": "Use the lock on the back wheel with the mobile app",
+      "imageQuote1": "Automatical opening",
+      "imageQuote2": "Manual closing"
+    },
+    "slide3": {
+      "title": "Service area",
+      "description": "Complete your journey in the blue zone, without obstructing traffic. Parking is prohibited in the red zones"
+    },
+    "slide4": {
+      "title": "Price",
+      "description": "With our unit rate, pay €0.15 per minute of trip + €1 for unlocking the electric bike."
+    },
+    "slide5": {
+      "title": " Book your Bik'air for free",
+      "description": "By clicking on the icon of your Bik'air bike, you can reserve it for free for 10 minutes. No one will be able to use it, except you, during this time.\n\n\n\n\n\n"
+    },
+    "slide6": {
+      "title": "Parking spot",
+      "description": "This is a mandatory parking spot! \nYou need to park there to end a trip \uD83D\uDE42"
+    },
+    "button": "Close",
+    "doNotDisplay": "Do not display again",
+    "next": "Next",
+    "get_started": "Let's get started",
+    "skip": "Skip"
+  },
+  "settings": {
+    "notifications": "Notifications",
+    "notif_infos": "Select the notifications that you want to receive.",
+    "PROMOTIONS": "PROMOTION",
+    "INFORMATIONS": "INFORMATION",
+    "PROMOTIONS_INFOS": "To receive all promotional offers",
+    "INFORMATIONS_INFOS": "To receive all the information and news about Bik'air",
+    "no_params": "No parameters"
+  },
+  "error": "Oops, unknown error, please try again or contact us via the application's Help button",
+  "error_lock": "Oops, check if your lock is closed before ending the trip or contact us via the application's Help button",
+  "success": "Success",
+  "warning": "Warning",
+  "payment_error": "Your payment did not go through, please make sure you have the necessary funds or get closer to your bank.",
+  "error_timeout": "Timeout error, please try again",
+  "update": {
+    "title": "An update is necessary!",
+    "submit": "Update",
+    "line_1": "Update your Bik'air application to get the latest features!",
+    "line_2": "If you don't see update button in store, please reset cache and data from store application.",
+    "not_now": "Not now"
+  },
+  "Network Error": "A network error occured. Please check your data.",
+  "spot": {
+    "description": "This is a great parking spot! You don't have to park there, because with Bik'air you can park wherever you want.",
+    "discount_info": "End your trip here will give you a 10% discount on your next one \uD83D\uDE42"
+  }
+}

@@ -1,0 +1,16 @@
+/* 
+  Infoplist.strings
+  bikairClient
+
+  Created by Nicolas Apoux on 01/10/2021.
+  
+*/
+
+NSBluetoothAlwaysUsageDescription = "Bik'air veut utiliser Bluetooth pour ouvrir et fermer le cadenas du vélo.";
+NSBluetoothPeripheralUsageDescription = "Bik'air veut utiliser Bluetooth pour ouvrir et fermer le cadenas du vélo.";
+NSCameraUsageDescription = "Nous devons utiliser la caméra pour scanner le QR-Code du vélo.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Besoin d'accéder à la localisation de l'utilisateur, pour suivre le mouvement de l'utilisateur avec le vélo électrique";
+NSLocationAlwaysUsageDescription = "Nécessité de suivre le déplacement de l'utilisateur et du vélo électrique";
+NSLocationWhenInUseUsageDescription = "Nécessité d'accéder à la localisation de l'utilisateur pour suivre le déplacement de l'utilisateur avec le vélo électrique";
+NSUserTrackingUsageDescription = "Nous collectons les données suivantes lorsque vous utilisez l'application : géolocalisation, interactions avec le service client, information de votre compte et votre profil, et connexions Bluetooth. La localisation est obligatoire pour localiser les vélos autour de vous, la connexion Bluetooth est obligatoire pour déverrouiller les vélos, les interactions avec le service client et les informations de contact et de votre profil sont obligatoires pour vous adresser le meilleur et le plus rapide support client.";
+NSPhotoLibraryUsageDescription = "Nous avons besoin de cette autorisation pour récupérer les photos prise en fin de trajet.";

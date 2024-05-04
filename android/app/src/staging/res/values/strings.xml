@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bik\'Air-Staging</string>
+    <string name="facebook_app_id">1027575804807042</string>
+    <string name="fb_login_protocol_scheme">fb1027575804807042</string>
+    <string name="facebook_client_token">ea59f7515d2e466a66c846fcd51e5ebb</string>
+
+</resources>

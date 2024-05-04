@@ -1,0 +1,5 @@
+appId: com.bikair
+---
+- launchApp
+- tapOn: "Home"
+- tapOn: "notification"

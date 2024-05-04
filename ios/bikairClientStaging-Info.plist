@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Staging-Bik'Air</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Bik'Air SAS</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1027575804807042</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>bikair</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bikair</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<false/>
+	<key>FacebookAppID</key>
+	<string>1027575804807042</string>
+	<key>FacebookAutoInitEnabled</key>
+	<false/>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<false/>
+	<key>FacebookClientToken</key>
+	<string>ea59f7515d2e466a66c846fcd51e5ebb</string>
+	<key>FacebookDisplayName</key>
+	<string>Bik'Air Client (Staging)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>bikairClient.app</string>
+		<string>file</string>
+		<string>itms-apps</string>
+		<string>bikair</string>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>instagram</string>
+		<string>fb</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bik'air wants to use Bluetooth to open and close the lock on the bike</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bik'air wants to use the Bluetooth  to open the lock on the bike</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to use the camera to scan the bike QR-Code</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need to access user location, to track the movement of the user with the bike</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Require to follow the movement of the user on the bike.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need to access user location, to track the movement of the user with the bike</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need this authorization to retrieve the photo taken at the end of your trip.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We collect the following data when you use the application : location, interactions with customer support, contact information, and Bluetooth connections. Location is mandatory to locate the ebikes around you, Bluetooth connection is mandatory to unlock ebikes, interaction with customer service and contact information are mandatory to address you the best and quickest support.</string>
+	<key>TargetName</key>
+	<string>Staging</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AvenirNext-Regular.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>fontello.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>bikair-icons.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

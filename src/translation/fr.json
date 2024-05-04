@@ -1,0 +1,980 @@
+{
+  "drawer_menu": {
+    "trip": "Mes trajets",
+    "payment": "Paiement",
+    "promotion": "Promotions",
+    "sponsor": "Parrainage",
+    "help": "Aide",
+    "setting": "Paramètres",
+    "logout": "Déconnexion",
+    "subscription": "Packs & Abonnement",
+    "details": "Détails",
+    "my_cart": "Mon panier"
+  },
+  "wording": {
+    "start": "Démarrer le trajet",
+    "end": "Terminer le trajet",
+    "confirm": "Confirmer",
+    "done": "Confirmer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "retry": "Recommencer",
+    "yes": "Oui",
+    "no": "Non",
+    "pay": "Payment",
+    "connection": "Commencer",
+    "close": "Fermer",
+    "applepay": "Apple Pay",
+    "applepaycard": "Ajouter une carte",
+    "googlepay": "Google Pay",
+    "contact_us": "Contactez-nous",
+    "card": "Carte",
+    "success": "Succès",
+    "manual_lock": "Fermeture Manuelle",
+    "trip": "Trajet",
+    "trips": "Trajets",
+    "minute": "Minute",
+    "minutes": "Minutes"
+  },
+  "cookies": {
+    "title": "UTILISATION DE COOKIES",
+    "description": "Nous utilisons des cookies de première partie et de tierce partie pour comprendre les cas d'utilisation de notre application, pour pouvoir l'améliorer, adapter le contenu à vos préférences et personnaliser nos publicités, notre marketing et nos publications sur les réseaux sociaux. publicités, notre marketing et nos publications sur les réseaux sociaux. Vous pouvez les accepter tous, les refuser ou choisir votre configuration en cliquant sur les boutons correspondants",
+    "accept_cookies": "ACCEPTER TOUS LES COOKIES",
+    "continue_without_accepting": "CONTINUER SANS ACCEPTER",
+    "customize_preferences": "PERSONNALISEZ VOS PRÉFÉRENCES",
+    "necessary": "Nécessaire",
+    "marketing": "Marketing",
+    "save_and_submit": "ENREGISTRER ET SOUMETTRE"
+  },
+  "special_offer": {
+    "special_offer_title": "Envie de faire des économies ?",
+    "special_offer_phrase": "Nos nouveaux packs sont maintenant disponibles !",
+    "title_trip": "Pass 2 Trajets",
+    "description1_trip": "2 trajets de 30 min. max/trajet",
+    "description2_trip": "Valables 30 jours",
+    "buttonText_trip": "Nos offres",
+    "title_minute": "Packs minutes",
+    "description1_minute": "60, 120 ou 240 minutes au choix",
+    "description2_minute": "Minutes décomptées à chaque trajet",
+    "buttonText_minute": "Nos offres",
+    "title_subscription": "Abonnement Mensuel",
+    "description1_subscription": "40 trajets / mois",
+    "description2_subscription": "30 minutes max / trajet",
+    "buttonText_subscription": "Nos offres"
+  },
+  "bike": {
+    "status": {
+      "rental": {
+        "message": "Veuillez entrer le code que nous vous avons envoyé par e-mail",
+        "description": "Ce vélo est réservé par notre partenaire Berry Province Un client de Berry Province a déjà réservé ce vélo, vous ne pouvez donc pas l'utiliser pour le moment",
+        "description1": "Retournez sur la carte pour trouver un autre Bik'air disponible à proximité !"
+      },
+      "used": {
+        "message": "Désolé, quelqu'un utilise déjà le vélo que vous avez scanné.",
+        "description": "Ce vélo est en cours d'utilisation Un autre Bik'er est déjà en train d'utiliser ce vélo, vous ne pouvez donc pas le déverrouiller.",
+        "description1": "Retournez sur la carte pour trouver un Bik'air disponible à proximité !"
+      },
+      "maintenance": {
+        "message": "Désolé, ce vélo est en cours de maintenance",
+        "description": "Ce vélo se refait une beauté Le Bik'air que vous avez choisi n'est pas apte à circuler pour le moment. ",
+        "description1": "Retournez sur la carte pour trouver un autre Bik'air disponible (et en pleine forme), à proximité !",
+        "description2": "Il a besoin d'un petit passage à l'atelier avant de pouvoir rouler à nouveau. "
+      },
+      "booked": {
+        "message": "Ce vélo est réservé ",
+        "description": "Ce Bik'air est très convoité ! Un autre Bik'er a déjà réservé ce vélo, vous ne pouvez donc pas l'utiliser.",
+        "description1": "Retournez sur la carte pour trouver un Bik'air disponible à proximité !"
+      },
+      "experimentation": {
+        "button": "Poursuivre le trajet",
+        "message": "Mode expérimentation",
+        "description": "Le vélo",
+        "description1": "que vous avez saisi est en mode expérimentation, ce qui vous donne 1h de trajet gratuit"
+      },
+      "not_found": {
+        "message": "Ce vélo est inconnu",
+        "description": "Le vélo",
+        "description1": "que vous avez renseigné n'existe pas. Veuillez retourner sur la carte pour trouver un vélo Bik'air à proximité."
+      }
+    }
+  },
+  "trip_subscription": {
+    "trip_duration": "Durée de votre trajet",
+    "trip_discount": "Remise appliquée",
+    "trip_remaining": "Total restant"
+  },
+  "rental": {
+    "enter_to_continue": "Entrez le code pour continuer",
+    "code_invalid": "Le code que vous avez entré n'est pas valide, veuillez vérifier votre e-mail et réessayer",
+    "bike_unavailable": "Le vélo n'est pas disponible",
+    "error_status": "Erreur lors de la récupération de status",
+    "enter_code": "Entrez le code"
+  },
+  "card_info": {
+    "price": {
+      "price1": "Notre service est à un tarif unique de",
+      "price2": "0,15€",
+      "price3": "la minute"
+    },
+    "deposit": {
+      "deposit1": "Une caution de ",
+      "deposit2": "50€",
+      "deposit3": " est requise et annulée automatiquement après 7 jours.",
+      "deposit4": "Nous nous réservons le droit de la conserver après 7 jours en cas de non respect des règles d’utilisation..",
+      "deposit5": "Toute promotion appliquée sur les abonnements est valable ",
+      "deposit6": "le 1er mois, ",
+      "deposit7" : "puis",
+      "deposit8": "mois"
+    }
+  },
+  "help": {
+    "title": "Centre d'aide",
+    "my_tickets": "Mes tickets",
+    "faq": "FAQ",
+    "chat": "Chat"
+  },
+  "cgu": {
+    "title": "Conditions d'utilisation"
+  },
+  "headers": {
+    "map": "Home",
+    "trips": "Historique des trajets",
+    "start_trip": "Commencer un trajet",
+    "end_trip": "Terminer le trajet",
+    "auth_3dsecure": "Paiement securisé",
+    "payment": "Paiement",
+    "payment_add": "Ajouter une carte",
+    "help": "Aide",
+    "sponsor": "Parrainage",
+    "promotion": "Promotions",
+    "account": "Mon compte",
+    "terms": "CGU",
+    "notification": "Notifications",
+    "notifications_list": "Notifications",
+    "notifications_item": "Notifications",
+    "notifications_option": "Paramètres",
+    "setting": "Paramètres",
+    "photo": "Stationnement",
+    "subscription": "Packs & Abonnement",
+    "details": "Détails",
+    "my_cart": "Mon panier",
+    "code": "Entrez le code"
+  },
+  "subscription_screen": {
+    "the_passes": "Les Passes",
+    "the_offers": "Les Offres",
+    "my_passes": "Mes Packs",
+    "my_subscriptions": "Mes Abonnements",
+    "paid": "Payé",
+    "new": "Nouveau",
+    "profile": "Voir mon profil",
+    "hello": "Salut",
+    "unpaid": "Impayé",
+    "resume_subscription": "Reprendre l'Abonnement",
+    "will_be_cancel": "Sera annulé le",
+    "renewed_on": "Renouvellement le",
+    "valid_until": "Valide jusqu'au",
+    "done": "OK",
+    "the_subscription": "Les Abonnements",
+    "add_card": "Ajouter une carte avant de continuer",
+    "provide_card": "Veuillez entrer une carte de crédit",
+    "used_today": "trajet utilisé",
+    "im_sorry": "Nous sommes désolés. !",
+    "important": "Attention ! Caution de 50€ capturée à chaque trajet",
+    "sorry_message": "Pass ou Abonnement actuellement non disponible dans votre ville, nous vous tiendrons informé dès que nous l'ajouterons à votre ville",
+    "success_message": "Votre achat est confirmé. Vous pouvez utiliser votre Pass 2 trajets jusqu'au",
+    "error_message": "Votre paiement n'a pas été effectué, vérifiez votre mode de paiement et réessayez.",
+    "congratulations": "Félicitations!",
+    "payment_failed": "Échec du paiement",
+    "describe_pass": "2 trajets, valables 24 heures",
+    "describe_abonnement": "2 trajets par jour",
+    "trip_rests": "Trajets restants",
+    "usage_per_day": "trajets",
+    "usage_per_month": "trajets par mois",
+    "go_to_cart": "Aller au panier",
+    "pass": "Pass",
+    "subscription": "Abonnement",
+    "time_per_trip": "30 mins / trajet",
+    "plus_offers": "+Offres",
+    "active": "Actifs",
+    "understood": "Compris",
+    "show_more": "Voir tous les détails",
+    "show_less": "Cacher les détails",
+    "show_history": "Afficher mon histoire",
+    "hide_history": "Cacher mon histoire",
+    "info": "Nous pouvons retenir un petit montant au moment au vous commencez un trajet",
+    "loading_validate_purchase": "Votre achat est en cours de validation ... ",
+    "loading_cancel_purchase": "Annulation de votre offre en cours ... ",
+    "loading_history_purchase": "L'historique de vos achats est en cours de traitement .... ",
+    "confirm": "Je confirme que la finalisation du paiement activera immediatement ce pass",
+    "cancel_subscription": "Votre abonnement a été annulé avec succès",
+    "confirm_purchase": "Confirmer l'achat",
+    "check_before_confirming": "Cochez avant confirmation",
+    "explore_more": "Acheter",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "canceled": "Annulé",
+    "close": "Fermer",
+    "expire": "Expire le",
+    "no_trips": "Vous avez utilisé tous vos trajets du mois",
+    "no_cart_item": "Élément du panier manquant. Veuillez contacter le support pour signaler ce problème s'il vous plait.",
+    "canceled_reason": "Quelle est la raison de l'annulation de votre abonnement ?",
+    "canceled_message": {
+      "EXPENSIVE": "Trop cher",
+      "NOT_USEFUL": "Peu d'utilité / d'utilisation",
+      "NO_BIKES_NEARBY": "Pas assez de vélos à proximité"
+    }
+  },
+  "notification-screen": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "2_days": "Il y a 2 jours",
+    "3_days": "Il y a 3 jours",
+    "mark_as_read": "marquer tout comme lu",
+    "mark_as_unread": "marquer tout comme non lu",
+    "my_notifications": "Mes notifications",
+    "new_notification": "Nouvelle notification",
+    "no_notification": "Vous n'avez aucune notification pour le moment",
+    "sent_at": "envoyé le",
+    "open": "Ouvrir",
+    "hide": "Cacher"
+  },
+  "trip_process": {
+    "trip_wait_validation": {
+      "title": "En attente de validation",
+      "description": "Le paiement de votre voyage a été enregistré et attend d'être validé par notre équipe du support."
+    },
+    "trip_paying_validation": {
+      "title": "Le paiement de votre voyage est en cours de validation",
+      "description": "Veuillez patienter jusqu'à ce que le paiement soit validé, ce processus prend quelques secondes"
+    },
+    "manual_lock_black": {
+      "title": "Fermeture du cadenas noir !",
+      "support": "Contact Support",
+      "tutorial": "Suivre le tutoriel",
+      "disclaimerLock": "Vous allez pouvoir fermer le cadenas manuellement en suivant les instruction page suivante ",
+      "line_1": "Nous vous demanderons de prendre une photo avec le cadenas fermer en suite.",
+      "line_2": "Nous validerons la fermeture manuellement.",
+      "line_3": "Tout manquement ou si la photo ne permet pas d'attester clairement la fermeture pourra entrainer des pénalité de paiement.",
+      "line_4": "Lisez attentivement toutes nos instruction.",
+      "line_5": "Vous pouvez a tout moment contacter le support durant ses horaire d'ouverture"
+    },
+    "manual_lock_white": {
+      "title": "Fermeture du cadenas blanc !",
+      "support": "Contact Support",
+      "disclaimerLock": "Vous ne pouvez pas fermer manuellement ce cadenas. Merci de contacter le support."
+    },
+    "manual_lock_black_tuto": {
+      "title": "Comment fermer le cadenas ?",
+      "support": "Contacter le Support",
+      "photo": "Prendre une photo",
+      "disclaimerLock": "Pour fermer le cadenas manuellement, veuillez suivre les étapes ci-dessous. ⬇ ",
+      "line_1": "Étape une, Appuyez sur le bouton situé en haut a droite du cadenas",
+      "line_2": "Étape deux, vous devez entendre le cadenas qui se débloque",
+      "line_3": "Étape trois, abaissez manuellement le loquet gris situé a gauche du cadenas, jusqu'à entendre un click",
+      "line_4": "Étape quatre, testez que le loquet est bien verrouillé en tentant de le remonter.",
+      "line_5": "Étape cinq, appuyer sur le bouton ci-dessous pour prendre une photo du vélo fermé."
+    },
+    "manual_lock": {
+      "title": "Quelle est la couleur du cadenas sur le vélo ?"
+    },
+    "check_current_trip": {
+      "title": "Vérifications du trajet",
+      "description": "Nous vérifions que tout est en ordre pour commencer le trajet."
+    },
+    "check_deposit": {
+      "title": "Vérification de la caution",
+      "description": "Une caution de 50€ est requise et annulée automatiquement après 7 jours. \nNous nous réservons le droit de la conserver après 7 jours en cas de non respect des règles d’utilisation."
+    },
+    "opening_trip": {
+      "title": "Création de votre trajet...",
+      "description": "Nous sommes en train de démarrer votre trajet."
+    },
+    "lock_connecting": {
+      "title": "Connexion au cadenas en cours",
+      "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller.",
+      "trip_open": {
+        "title": "Connexion au cadenas en cours",
+        "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller."
+      },
+      "trip_close": {
+        "title": "Fermeture du cadenas en cours",
+        "description": "Veuillez patienter quelques instants, la confirmation de la fermeture du cadenas est en cours."
+      },
+      "pause_open": {
+        "title": "Connexion au cadenas en cours",
+        "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller."
+      },
+      "pause_close": {
+        "title": "Fermeture du cadenas en cours",
+        "description": "Veuillez patienter quelques instants, la confirmation de la fermeture du cadenas est en cours."
+      }
+    },
+    "lock_opening": {
+      "title": "Connexion au cadenas en cours",
+      "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller.",
+      "trip_open": {
+        "title": "Connexion au cadenas en cours",
+        "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller."
+      },
+      "pause_open": {
+        "title": "Connexion au cadenas en cours",
+        "description": "Veuillez patienter quelques instants, le cadenas de votre vélo électrique Bik'air est en train de se déverouiller."
+      }
+    },
+    "creating_trip": {
+      "title": "Création de votre trajet...",
+      "description": "Nous sommes en train de démarrer votre trajet."
+    },
+    "lock_open": {
+      "title": "Cadenas ouvert!",
+      "description": "Votre vélo électrique Bik'air est déverrouillé, profitez de votre trajet en toute tranquillité!"
+    },
+    "trip_stop": {
+      "default": {
+        "pause_text": "Vérouillez votre vélo tout en gardant votre trajet actif.",
+        "pause_button": "Faire une pause",
+        "pause_end": "Reprendre le trajet",
+        "end_text": "Vérouiller votre vélo pour terminer le trajet et être facturé.",
+        "end_button": "Terminer le trajet"
+      },
+      "rental": {
+        "pause_text": "Vérouillez votre vélo sans terminer la location.",
+        "pause_button": "Faire une pause",
+        "pause_end": "Reprendre le trajet",
+        "end_text": "Vérouiller votre vélo et terminer la location.",
+        "end_button": "Terminer le trajet"
+      }
+    },
+    "end_trip": {
+      "total": "Total",
+      "lock": "Verrouillez",
+      "discount": "Remise",
+      "total_used": "Total utilisés",
+      "pay": "Verrouiller le cadenas",
+      "trip_duration": "Durée de votre trajet ",
+      "tips": "Vous pouvez fermer le cadenas sans mettre fin au trajet.",
+      "disclaimerPark": {
+        "line_1": " !! ATTENTION !! ",
+        "line_2": "Votre caution de 50€ sera AUTOMATIQUEMENT prélevée :",
+        "line_3": "Si vous garez le vélo électrique Bik'air dans une résidence ou un lieu privé et inaccessible aux autres et à nos équipes",
+        "line_4": "Si vous stationnez le vélo électrique Bik'air dans un endroit inapproprié ",
+        "line_5": "Si vous stationnez le vélo électrique Bik'air dans un lieu qui gêne la circulation piétonne et urbaine."
+      },
+      "disclaimerLock": "Appuyez sur le bouton \"verrouiller\" ci-dessous puis fermez le cadenas manuellement afin de verrouiller le vélo et arrêter la facturation.",
+      "error_zone": "Vous ne vous trouvez pas dans la zone de stationnement. Veuillez vous garez à l’intérieur de la zone délimitée par les traits bleus pour finir votre trajet.",
+      "msg_close": "Vous pouvez fermer votre vélo/cadenas",
+      "msg_open": "Votre cadenas est ouvert",
+      "minutes": "minutes",
+      "trip": "Trajets",
+      "default": {
+        "total": "Total",
+        "lock": "Verrouillez",
+        "discount": "Remise",
+        "total_used": "Total utilisés",
+        "pay": "Verrouiller le cadenas",
+        "trip_duration": "Durée de votre trajet ",
+        "tips": "Vous pouvez fermer le cadenas sans mettre fin au trajet.",
+        "disclaimerPark": {
+          "line_1": " !! ATTENTION !! ",
+          "line_2": "Votre caution de 50€ sera AUTOMATIQUEMENT prélevée :",
+          "line_3": "Si vous garez le vélo électrique Bik'air dans une résidence ou un lieu privé et inaccessible aux autres et à nos équipes",
+          "line_4": "Si vous stationnez le vélo électrique Bik'air dans un endroit inapproprié ",
+          "line_5": "Si vous stationnez le vélo électrique Bik'air dans un lieu qui gêne la circulation piétonne et urbaine."
+        },
+        "disclaimerLock": "Appuyez sur le bouton \"verrouiller\" ci-dessous puis fermez le cadenas manuellement afin de verrouiller le vélo et arrêter la facturation.",
+        "error_zone": "Vous ne vous trouvez pas dans la zone de stationnement. Veuillez vous garez à l’intérieur de la zone délimitée par les traits bleus pour finir votre trajet.",
+        "msg_close": "Vous pouvez fermer votre vélo/cadenas",
+        "msg_open": "Votre cadenas est ouvert",
+        "minutes": "minutes"
+      },
+      "rental": {
+        "total": "Total",
+        "lock": "Verrouillez",
+        "discount": "Remise",
+        "total_used": "Total utilisés",
+        "pay": "Verrouiller le cadenas",
+        "trip_duration": "Durée de votre location ",
+        "tips": "Vous pouvez fermer le cadenas sans mettre fin à la location dans le menu précédent.",
+        "disclaimerPark": {
+          "line_1": " !! ATTENTION !! ",
+          "line_2": "Votre location prendra fin !",
+          "line_3": "Vous serez facturé normalement (0,15€/min) si vous prenez un vélo ensuite.",
+          "line_4": "Si vous souhaitez simplement sécuriser le vélo et garder votre location revenez en arrière et séléctionnez 'Faire une pause'.",
+          "line_5": "La caution de 50€ sera prélevé si vous stationnez le vélo électrique Bik'air dans un lieu qui gêne la circulation piétonne et urbaine."
+        },
+        "disclaimerLock": "Appuyez sur le bouton \"verrouiller\" ci-dessous puis fermez le cadenas manuellement afin de verrouiller le vélo et arrêter la location.",
+        "error_zone": "Vous ne vous trouvez pas dans la zone de stationnement. Veuillez vous garez à l’intérieur de la zone délimitée par les traits bleus pour finir votre trajet.",
+        "msg_close": "Vous pouvez fermer votre vélo/cadenas",
+        "msg_open": "Votre cadenas est ouvert",
+        "minutes": "minutes"
+      }
+    },
+    "trip_end_check": {
+      "title": "Vérifications.",
+      "description": "Nous verifions que tout est en ordre pour terminer le trajet.",
+      "error_zone": "Vous n'êtes pas sur une zone de parking valide. Veuillez vous déplacer avec le vélo dans une zone autorisé pour la fin de trajet."
+    },
+    "trip_closing": {
+      "title": "Fin de trajet",
+      "description": "Veuillez patienter quelques instants pour pouvoir fermer le cadenas manuellement.",
+      "trip_close": {
+        "title": "Fin de trajet",
+        "description": "Veuillez patienter quelques instants pour pouvoir fermer le cadenas manuellement."
+      },
+      "pause_close": {
+        "title": "Pause en cour",
+        "description": "Veuillez patienter quelques instants pour pouvoir fermer le cadenas manuellement."
+      }
+    },
+    "lock_closing": {
+      "title": "Veuillez fermer le cadenas",
+      "description": "Vous pouvez à présent fermer le cadenas manuellement en utilisant le loquet de gauche.",
+      "trip_close": {
+        "title": "Veuillez fermer le cadenas",
+        "description": "Vous pouvez à présent fermer le cadenas manuellement en utilisant le loquet de gauche. Attention à ce que la jante jaune de la roue ne bloque pas la fermeture"
+      },
+      "pause_close": {
+        "title": "Veuillez fermer le cadenas",
+        "description": "Vous pouvez à présent fermer le cadenas manuellement en utilisant le loquet de gauche."
+      }
+    },
+    "trip_paying": {
+      "title": "Paiement de votre trajet en cours...",
+      "description": "Ceci peut prendre plusieurs secondes..."
+    },
+    "trip_paid": {
+      "title": "Payé",
+      "description": "Votre paiement a bien été effectué, à très vite pour un nouveau trajet en Bik'air !"
+    },
+    "trip_review": {
+      "title": "Qu'avez-vous pensé de votre trajet en Bik'air ?",
+      "description": "Notez-le sur 5 étoiles",
+      "placeholder": "Un commentaire ?",
+      "button": "Envoyer",
+      "problem": "J'ai rencontré un problème?",
+      "issues": {
+        "MECHANICAL": "Problème mécanique",
+        "BATTERY": "Problème de batterie (à plat / vide)",
+        "TRIP_ENDED": "Pour terminer mon trajet"
+      }
+    },
+    "trip_pause": {
+      "default": {
+        "title": "Envie de faire un arrêt ?",
+        "new_line_1": "Verrouillez le cadenas du vélo Bik’air sans terminer votre trajet.",
+        "new_line_2": "ATTENTION : votre trajet étant toujours en cours, vous continuez à être facturé le temps de la pause.",
+        "new_line_3": "MAIS vous conserverez votre vélo Bik’air le temps de votre arrêt que vous soyez hors zone ou non (limite visible par les traits bleus sur l’application)."
+      },
+      "rental": {
+        "title": "Envie de faire un arrêt ?",
+        "new_line_1": "Verrouillez le cadenas du vélo Bik’air sans terminer votre location.",
+        "new_line_2": "Si vous souhaitez mettre fin à votre location et arrêter le compteur, revenez en arrière et cliquer sur le bouton 'Terminer le trajet'",
+        "new_line_3": "Ne stationnez pas le vélo électrique Bik'air dans un lieu qui gêne la circulation piétonne et urbaine."
+      },
+      "loading": "Connexion au cadenas",
+      "lock": "Verrouillez le cadenas",
+      "unlock": "Déverrouillez le cadenas"
+    },
+    "lock_timeout": {
+      "title": "Erreur lors du verrouillage...",
+      "description": "Veuillez redémarer votre Bluetooth et réessayer.",
+      "trip_open": {
+        "title": "Erreur lors du déverrouillage...",
+        "description": "Veuillez redémarer votre Bluetooth et réessayer. Le trajet sera automatiquement annulé après 2 tentatives."
+      },
+      "trip_close": {
+        "title": "Erreur lors du verrouillage...",
+        "description": "Veuillez redémarer votre Bluetooth et réessayer."
+      },
+      "pause_open": {
+        "title": "Erreur lors du verrouillage...",
+        "description": "Veuillez redémarer votre Bluetooth et réessayer."
+      },
+      "pause_close": {
+        "title": "Erreur lors du déverrouillage...",
+        "description": "Veuillez redémarer votre Bluetooth et réessayer."
+      }
+    },
+    "lock_retry_closing": {
+      "title": "Oops votre vélo n'est pas fermé",
+      "description": "Cliquez sur le bouton ci-dessous....",
+      "trip_close": {
+        "title": "Oops votre vélo n'est pas fermé",
+        "description": "Cliquez sur le bouton ci-dessous...."
+      },
+      "pause_close": {
+        "title": "Oops votre vélo n'est pas fermé",
+        "description": "Cliquez sur le bouton ci-dessous...."
+      }
+    },
+    "trip_cancel": {
+      "title": "Nous annulons votre trajet",
+      "description": "Ceci peut prendre plusieurs secondes..."
+    },
+    "check_unpaid_trip": {
+      "title": "Vérification des trajet impayé",
+      "description": "Nous vérifions que vous n'avez pas de trajet impayé."
+    },
+    "check_current_bike": {
+      "title": "Vérification du vélo",
+      "description": "Nous vérifions que le vélo est utilisable et non réservé."
+    },
+    "checking_deposit": {
+      "title": "Vérification de votre caution",
+      "description": "Une empreinte d'un montant de 50€ est nécessaire pour utiliser le service. Merci d'authentifiez votre moyen de paiement pour des raisons de sécurité."
+    },
+    "lock_close": {
+      "title": "Cadenas fermé!",
+      "description": "Votre vélo électrique Bik'air est verrouillé!"
+    },
+    "unlock_timeout": {
+      "title": "Erreur lors du déverrouillage...",
+      "description": "Veuillez redémarer votre Bluetooth et réessayer. Le trajet sera automatiquement annulé après 2 tentatives."
+    },
+    "verify_lock_closed": {
+      "title": "Fermeture MANUELLE du cadenas",
+      "description": "Veuillez vous assurer que vous avez fermé le cadenas manuellement."
+    },
+    "trip_paying_after": {
+      "title": "Paiement de votre dernier trajet...",
+      "description": "Vous devez payer votre précédent trajet pour en démarrer un nouveau !"
+    },
+    "trip_finish_payment": {
+      "title": "Paiement incomplet",
+      "description": "Vous n'avez pas validé votre paiement, veuillez cliquer sur le lien ci-dessous.",
+      "button": "Confirmer mon paiement"
+    },
+    "trip_unpaid": {
+      "title": "Trajet en attente",
+      "description": "Vous êtes hors ligne..."
+    },
+    "trip_payment_error": {
+      "add_card": "Changer ma carte bancaire",
+      "title": "Erreur de paiement",
+      "description": "Votre moyen de paiement n'a pas pu être validé. Veuillez vous assurer d'avoir les fonds nécessaire ou de changer de carte bancaire dans la page Paiement de l'application."
+    },
+    "trip_confirm_payment": {
+      "title": "Confirmation de paiement",
+      "description": "Veuillez patienter encore quelques secondes afin de confirmer votre paiement..."
+    },
+    "deposit_uncaptured": {
+      "title": "Votre caution n'a pu être capturée",
+      "description": "La caution est obligatoire pour démarrer un trajet. Veuillez vous assurer d'avoir les fonds nécessaires ou vous rapprocher de votre banque."
+    },
+    "unlock_failed": {
+      "title": "L'ouverture du cadenas à échoué",
+      "description": "Veuillez vérifier votre connection bluetooth. Redémarez votre bluethoot avant de réessayer."
+    },
+    "lock_connection_cancel": {
+      "title": "Trajet annulé",
+      "description": "Vous avez annulé la connection au cadenas."
+    },
+    "begin_failed": {
+      "title": "Trajet annulé",
+      "description": "An error has occurred, please contact support to resolve this issue as soon as possible."
+    },
+    "start_failed": {
+      "title": "Trajet annulé",
+      "description": "An error has occurred, please contact support to resolve this issue as soon as possible."
+    },
+    "trip_payment_hold": {
+      "title": "Vous êtes hors ligne",
+      "description": "Nous allons procéder au paiement lors de votre reconnexion"
+    },
+    "error_connect": {
+      "title": "Oups, une erreur est survenue...",
+      "description": "Nous sommes désolés mais une erreur est survenue lors de la connexion au vélo électrique Bik'air"
+    },
+    "error": "Oups, une erreur est survenue..."
+  },
+  "tips": {
+    "title": "Bienvenue chez Bik'Air",
+    "text": "A vous la liberté ! \nCréez votre compte pour utiliser nos vélos électriques en libre service sans bornes dans votre ville !",
+    "map": "Voir la carte."
+  },
+  "auth": {
+    "title": "Vérification",
+    "instruction": "Veuillez entrer le code que vous avez reçu par sms",
+    "email_instruction": "Veuillez entrer le code que vous avez reçu par e-mail",
+    "code": "Code",
+    "email": "Email",
+    "submit": "Continuer",
+    "enter": "Entrez code sms",
+    "resend": "Renvoyer par e-mail",
+    "not_received": "Vous n'avez pas reçu de code sms ?"
+  },
+  "phone_verify": {
+    "title": "Identification",
+    "instruction": "Veuillez entrer votre numéro de téléphone afin de vous identifier",
+    "phone": "Votre numéro de téléphone",
+    "valid": "Entrez votre numéro de téléphone",
+    "submit": "Continuer",
+    "error": "Quelque chose s'est mal passée, veuillez réessayer."
+  },
+  "support": {
+    "labelA": "Vélo endommagé",
+    "labelB": "Vélo mal stationné",
+    "labelC": "Vélo privatisé",
+    "labelD": "Autre",
+    "selection": "Sélectionnez un problème",
+    "selectionPH": "Quel est votre problème ?",
+    "bikeNumber": "Numéro du vélo",
+    "address": "Adresse",
+    "addressPH": "Entrez l'adresse du vélo",
+    "description": "Description",
+    "descriptionPH": "Décrivez le problème que vous rencontrez",
+    "partDamaged": "Partie endommagée",
+    "error": "Merci de renseigner tous les champs avant de continuer",
+    "success": "Votre message a bien été envoyé. Vous recevrez une réponse sur votre email.",
+    "send": "Envoyer le ticket"
+  },
+  "booking": {
+    "book": "Réserver gratuitement",
+    "cancelbook": "Annuler la réservation",
+    "autonomy": "Autonomie"
+  },
+  "home_map": {
+    "lock": "Terminer le trajet",
+    "unlock": "Déverrouillez",
+    "login": "Connexion"
+  },
+  "trip": {
+    "stop": {
+      "default": {
+        "pause_text": "Do you want to",
+        "pause_button": "Make a stop",
+        "end_text": "Or",
+        "end_button": "End your trip"
+      },
+      "rental": {
+        "pause_text": "Do you want to",
+        "pause_button": "Make a stop",
+        "end_text": "Or",
+        "end_button": "End your trip"
+      }
+    },
+    "pause": {
+      "default": {
+        "title": "Feel like making a stop?",
+        "new_line_1": "Lock the Bik'air ebike without finishing your trip.",
+        "new_line_2": "CAREFUL : your trip is still on going, you will continue to be charged for the time of the break.",
+        "new_line_3": "BUT you will keep your Bik'air bike the time of your stop whether you are out of the zone or not (limit visible by the blue lines on the application)."
+      },
+      "rental": {
+        "title": "Envie de faire un arrêt ?",
+        "new_line_1": "New line text goes here for rental",
+        "new_line_2": "New line text goes here for rental",
+        "new_line_3": "New line text goes here for rental"
+      },
+      "lock": "Lock your bike",
+      "unlock": "Unlock your bike"
+    }
+  },
+  "trip_pause": {
+    "title": "Envie de faire un arrêt ?",
+    "line_1": "Verrouillez votre cadenas sans arrêter votre trajet, ni le compteur.",
+    "line_2": "Cela vous permet de stationner",
+    "line_3": " TEMPORAIREMENT ",
+    "line_4": "à l'intérieur ou en dehors de la zone.",
+    "line_5": "Attention, vous NE pourrez PAS terminer votre trajet en dehors du périmètre d'utilisation du service (limitation villes par des traits bleus).",
+    "line_6": "Pensez à bien fermer votre cadenas à l'arrêt ! Et à l'ouvrir pour reprendre le trajet !",
+    "new_line_1": "Verrouillez le cadenas du vélo Bik’air sans terminer votre trajet.",
+    "new_line_2": "ATTENTION : votre trajet étant toujours en cours, vous continuez à être facturé le temps de la pause.",
+    "new_line_3": "MAIS vous conserverez votre vélo Bik’air le temps de votre arrêt que vous soyez hors zone ou non (limite visible par les traits bleus sur l’application).",
+    "lock": "Verrouillez le cadenas",
+    "unlock": "Déverrouillez le cadenas",
+    "start_pause": "Faire une pause",
+    "end_pause": "Reprendre le trajet",
+    "lock_unknown": "Verrouillez/Déverrouillez"
+  },
+  "bluetooth_error": {
+    "title": "Echec de la connexion au cedenas",
+    "line_1": "Redémarez votre Bluetooth et réessayez.",
+    "button": "Redémarrer le Bluetooth",
+    "lock_error": "Avez-vous vérifié que votre bluetooth est activé ? Et que vous avez autorisé votre bluetooth dans les paramètres de l'application mobile ?"
+  },
+  "permission_error": {
+    "title": "Autorisation pour $t(permission_error.{{permission}}) manquante",
+    "line_1": "Vous ne nous avez pas autorisé à utiliser $t(permission_error.{{permission}}).",
+    "line_2": "Nous avons besoin de cette autorisations pour faire fonctionner l'application normalement.",
+    "button": "Paramètres d'autorisation",
+    "bluetooth": "le Bluetooth",
+    "gps": "la géolocalisation",
+    "camera": "l'appareil photo"
+  },
+  "start_trip": {
+    "title": "Placer le QR-Code du vélo dans le cadre pour le déverouiller",
+    "placeholder": "Tapez le numéro du vélo ex : (258)",
+    "already_on_trip": "Vous avez déjà un trajet déja en cours"
+  },
+  "parking_photo": {
+    "title": "Prenez une photo de votre vélo garé",
+    "title1": "La photo doit montrer le vélo, le marquage du stationnement et les alentours. Prenez un peu de recul pour obtenir une bonne photo !",
+    "title_photo": "Photo Conforme ?",
+    "desc_photo": "Si vous ne vous etes pas gare correctement, vous risquez une amende de stationnement de 10,00 €",
+    "valid": "Valider",
+    "retake": "Reprendre la photo"
+  },
+  "end_trip": {
+    "total": "Total",
+    "lock": "Verrouillez",
+    "discount": "Remise",
+    "total_used": "Total utilisés",
+    "pay": "Verrouiller le cadenas",
+    "trip_duration": "Durée de votre trajet ",
+    "tips": "Vous pouvez fermer le cadenas sans mettre fin au trajet.",
+    "disclaimerPark": {
+      "line_1": " !! ATTENTION !! ",
+      "line_2": "Votre caution de 50€ sera AUTOMATIQUEMENT prélevée :",
+      "line_3": "Si vous garez le vélo électrique Bik'air dans une résidence ou un lieu privé et inaccessible aux autres et à nos équipes",
+      "line_4": "Si vous stationnez le vélo électrique Bik'air dans un endroit inapproprié ",
+      "line_5": "Si vous stationnez le vélo électrique Bik'air dans un lieu qui gêne la circulation piétonne et urbaine."
+    },
+    "disclaimerLock": "Appuyez sur le bouton \"verrouiller\" ci-dessous puis fermez le cadenas manuellement afin de verrouiller le vélo et arrêter la facturation.",
+    "error_zone": "Vous ne vous trouvez pas dans la zone de stationnement. Veuillez vous garez à l’intérieur de la zone délimitée par les traits bleus pour finir votre trajet.",
+    "msg_close": "Vous pouvez fermer votre vélo/cadenas",
+    "msg_open": "Votre cadenas est ouvert",
+    "minutes": "minutes"
+  },
+  "permissions": {
+    "location": {
+      "title": "Accorder l'accès de votre position",
+      "message": "Bik'air a besoin d'accéder à votre position pour vous proposer des vélos autour de vous.",
+      "askPermissionsNeutral": "Plus tard",
+      "askPermissionsNegative": "Annuler",
+      "askPermissionsPositive": "Autoriser",
+      "error": "Nous avons besoin de votre geolocation pour que vous accediez à tous les options de cette application"
+    },
+    "camera": {
+      "title": "Permission d'accès à la caméra",
+      "message": "L'application nécessite l'accès à votre caméra pour prendre des photos et scanner les QR code.",
+      "buttonNeutral": "Plus tard",
+      "buttonNegative": "Annuler",
+      "buttonPositive": "Autoriser",
+      "authorize_camera": "Veuillez autoriser la caméra"
+    }
+  },
+  "alert": {
+    "bluetooth": {
+      "open": "Activez votre bluetooth pour démarrer votre trajet",
+      "close": "Activez votre bluetooth pour fermer votre trajet",
+      "pause": "Veuillez activer votre Bluetooth",
+      "message": "Attention pour déverrouiller votre vélo et démarrer un trajet pensez à activer le Bluetooth de votre téléphone. Pensez à conserver votre bluetooth activé pour terminer votre trajet.",
+      "error": "Connexion au cadenas impossible. Redémerez votre Bluetooth et réessayez."
+    },
+    "location": {
+      "title": "Localisation désactivée",
+      "message": "Bik'air a besoin d'avoir accès à votre géolicalisation pour utiliser le service."
+    },
+    "network": {
+      "online": "Vous devez être connecté pour démarrer un trajet"
+    },
+    "lock": {
+      "trip_closed": "Si vous souhaitez terminer votre trajet, validez la fin de trajet en cliquant sur le bouton bleu en bas pour arrêter la facturation \uD83D\uDE42"
+    }
+  },
+  "discounts": {
+    "placeholder": "Ajouter un code promo ici",
+    "submit": "AJOUTER LE CODE PROMO",
+    "no_code": "Vous n'avez pas encore de code promo",
+    "item": {
+      "rental": {
+        "message": "Ce code vous donne accès à la location d'un Bik'Air.",
+        "expired_at": "Expire le: ",
+        "single": "Usage unique"
+      },
+      "title": "Réduction",
+      "expiration": "Date d'expiration",
+      "message": {
+        "usage_multiple": "Usage multiple",
+        "usage_single": "Usage unique",
+        "no_date": "Pas de date d'expiration",
+        "beginning": "Ce code vous donne accès à ",
+        "end": "valide jusqu'à",
+        "min_remaining": " minutes restantes",
+        "expired_at": "Expire le: ",
+        "MINUTES": " minutes gratuites",
+        "PACK": " minutes gratuites",
+        "ONE_SHOT": " minutes gratuites",
+        "SPONSOR": " minutes gratuites",
+        "PERCENT": "% de réduction",
+        "ABSOLUTE": " de réduction"
+      }
+    },
+    "PREMIUM": "Abonnement",
+    "DAY_PASS": "Pass",
+    "DAILY_SUBSCRIPTION": "Abonnement Quotidien",
+    "PACK_MINUTES": "Pack minute",
+    "GIFT_CARD": "Carte Cadeau",
+    "PACK_TRIPS": "Pack trajet"
+  },
+  "payment": {
+    "expires": "Expire fin",
+    "add_cart": "Veuillez ajouter une carte de crédit",
+    "deposit": {
+      "temporary": "Caution Temporaire",
+      "title": "Au démarrage du trajet une empreinte bancaire de 50€ est obligatoire. ",
+      "text": "Elle est conservée sur 7 jours pour ne pas être demandée à chaque nouveau trajet et sera rendue automatiquement par la suite.",
+      "text2": "Si le vélo électrique Bik'air est ",
+      "text3": "abandonné avec le cadenas ouvert ",
+      "text4": "ou ",
+      "text5": "dans un lieu privé et inaccessible pour les clients et les équipes Bik'air  ",
+      "text6": "dégradé ",
+      "text7": "ou encore ",
+      "text8": "mal stationné ",
+      "text9": ": la caution de 50€ sera AUTOMATIQUEMENT retenue."
+    },
+    "send": "Enregistrer la carte",
+    "card": "Choisir une carte",
+    "addModifyCard": "Ajouter/Modifier une carte",
+    "title": "Paiement",
+    "popup": "Souhaitez-vous vraiment supprimer ce moyen de paiement ?",
+    "delete_card": "Supprimer carte",
+    "add_card": "Nous sauvegardons votre carte pour que vous puissiez utiliser nos services.",
+    "error_add_card": "Erreur lors de l'ajout de la carte.",
+    "or": "Ou",
+    "success": "Votre mode de paiement est configuré avec succès pour les paiements futurs!",
+    "disable_delete": "Vous ne pouvez pas supprimer votre carte, lorsque vous avez un trajet en cours",
+    "error_3Dsecure_deposit": "Attention vous n’avez pas les fonds suffisant pour effectuer un trajet.\nUne caution de 50€ est nécessaire pour démarrer un trajet. Celle-ci sera rendue après 7 jours.",
+    "error_3Dsecure_payment": "Une erreur c'est produit lors du paiement. Nous procederons au paiement lors de votre prochain trajet."
+  },
+  "sponsor": {
+    "subtitle": "Parraine un ami et bénéficiez chacun d'un trajet gratuit!",
+    "paragraphe": "Offrez un trajet gratuit de 15 minutes à un ami en l'invitant à découvrir Bik'air et gagnez un trajet gratuit de 15 minutes lors de sa première utilisation.",
+    "label": "Partager votre code d'invitation :",
+    "first_line": "Parraine un ami et bénéficiez chacun d'un ",
+    "spam_first_line": "trajet gratuit!",
+    "second_line": "Tu es un parrain ? Partage ton code et gagne un trajet de ",
+    "spam_second_line": "15 minutes",
+    "third_line": "Tu es parrainé ? Utilise le code de ton parrain et gagne un trajet de ",
+    "spam_third_line": "15 minutes"
+  },
+  "trips": {
+    "refund": "Remboursement",
+    "noTrip": "Vous n'avez pas encore effectué de trajet !",
+    "duration": "Durée",
+    "start": "Début",
+    "end": "Fin",
+    "minutes": "minutes",
+    "status": {
+      "OPEN": "Ouvert",
+      "FAILED": "Annulé",
+      "ON_HOLD": "En attente",
+      "FREE_TRIP": "Payé",
+      "CLOSED": "Fermé",
+      "CANCEL": "Annuler",
+      "PAYMENT_IN_PROGRESS": "Paiement en attente",
+      "PAYMENT_SUCCESS": "Payé",
+      "PAYMENT_FAILED": "Paiement échoué",
+      "PAYMENT_INV_CREATED": "Paiement en attente",
+      "PAYMENT_HOLD_CONFIRM": "Paiement en attente",
+      "WAIT_VALIDATION": "À confirmer",
+      "EXPERIMENTATION": "Experimentation"
+    },
+    "promotion": "Promotion : ",
+    "pass_subs": "Pass & Abonnement: ",
+    "percent_reduction": "% de réduction",
+    "minutes_reduction": " minutes gratuites",
+    "enter_code": "Entrez votre code promo ici"
+  },
+  "account": {
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "birthday": "Date de naissance",
+    "day": "Jour",
+    "month": "Mois",
+    "year": "Année",
+    "placeholder_day": "JJ",
+    "placeholder_month": "MM",
+    "placeholder_year": "AAAA",
+    "phone": "Téléphone",
+    "residence": "Résident",
+    "vacancies": "Visiteur",
+    "save": "Sauvegarder",
+    "create": "Créer mon compte",
+    "delete_account": "Supprimer mon compte",
+    "confirm_delete_account": "Vous êtes sûr ?",
+    "delete_account_info": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+    "checkbox_terms": "J'ai pris connaissance et j'accepte les Conditions Générales d'Accès et d'Utilisation du service Bik'air.",
+    "city": "Ville",
+    "select_city": "Selectionnez votre ville",
+    "error": "Merci de renseigner tous les champs avant de continuer",
+    "error_email": "Format de mail incorrect",
+    "error_birthdate": "Veuillez indiquer votre date de naissance",
+    "error_lname_fname": "Veuillez indiquer votre prénom/nom",
+    "error_phone": "Veuillez indiquer votre téléphone",
+    "phone_number_not_valid": "Numéro de téléphone invalide",
+    "error_city": "Veuillez indiquer une ville",
+    "error_terms": "Veuillez accepter les conditions générales",
+    "error_age": "Vous ne pouvez pas utiliser le service Bik'air, vous avez moins de 16 ans !"
+  },
+  "contact": {
+    "question": "Besoin d'un conseil? D'assistance?",
+    "callUs": "Appelez nous au",
+    "open_hours": "Service disponible entre 8h et 18h",
+    "phoneNumber": "+33617157111",
+    "phoneNumberText": "+33 6 17 15 71 11"
+  },
+  "tutorial": {
+    "slide1": {
+      "title": "Bienvenue à toi Bik'er !",
+      "description": "Pour utiliser nos vélos électriques c'est très simple."
+    },
+    "slide2": {
+      "title": "Sans bornes",
+      "description": "Utilise le cadenas sur la roue arrière avec l'application mobile",
+      "imageQuote1": "Ouverture Automatique",
+      "imageQuote2": "Fermeture manuelle"
+    },
+    "slide3": {
+      "title": "Zone d'utilisation",
+      "description": "Termine ton trajet dans la zone bleue, sans gêner la circulation urbaine. Le stationnement est interdit dans les zones rouges"
+    },
+    "slide4": {
+      "title": "Tarification",
+      "description": "Avec notre tarif unitaire, payez 0,15€ la minute de trajet + 1€ pour le déverrouillage du vélo électrique."
+    },
+    "slide5": {
+      "title": "Réserve ton Bik'air gratuitement",
+      "description": "En cliquant sur l'icône de ton vélo Bik'air, tu peux le réserver gratuitement pendant 10 mn. Personne ne pourra l'utiliser, à part toi, pendant ce laps de temps."
+    },
+    "slide6": {
+      "title": "Place de stationnement",
+      "description": "Ceci est un emplacement de parking obligatoire ! Vous devez y stationner pour terminer votre trajet \uD83D\uDE42"
+    },
+    "button": "Fermer",
+    "doNotDisplay": "Ne plus afficher",
+    "next": "Suivant",
+    "get_started": "C'est parti",
+    "skip": "Fermer"
+  },
+  "settings": {
+    "notifications": "Notifications",
+    "notif_infos": "Sélectionnez les notifications que vous souhaitez recevoir.",
+    "PROMOTIONS": "PROMOTIONS",
+    "INFORMATIONS": "INFORMATIONS",
+    "PROMOTIONS_INFOS": "Pour recevoir toutes les offres promotionnelles",
+    "INFORMATIONS_INFOS": "Pour recevoir toutes les informations et l'actualité Bik'air",
+    "no_params": "Aucune paramètres"
+  },
+  "error": "Oops, une erreur est survenue, veuillez recommencer ou contactez-nous via le bouton Aide de l'application",
+  "error_lock": "Oups, vérifiez que votre cadenas soit bien fermé ou contactez-nous via le bouton Aide de l'application",
+  "success": "Succès",
+  "warning": "Warning",
+  "payment_error": "Votre moyen de paiement n'as pas pu être validé, veuillez vous assurer d'avoir les fonds nécessaire ou vous rapprochez de votre banque.",
+  "error_timeout": "Temps mort erreur, veuillez recommencer",
+  "update": {
+    "title": "Une mise à jour s’impose !",
+    "submit": "Mise à jour",
+    "line_1": "Mettez à jour votre application Bik’air pour bénéficier des toutes dernières fonctionnalités !",
+    "line_2": "Si vous ne voyez pas de bouton de mise à jour dans le store, merci de supprimer le cache et les données de l'application du store.",
+    "not_now": "Pas maintenant"
+  },
+  "Network Error": "Une erreur réseau est survenue. Veuillez vérifier votre réseau.",
+  "spot": {
+    "description": "Ceci est un emplacement de parking à privilégier ! Vous n'êtes pas obligés d'y stationner, car avec Bik'air vous pouvez stationner où vous voulez.",
+    "discount_info": "Terminer votre trajet ici vous permettra de gagner 10% de réduction sur votre prochain trajet \uD83D\uDE42"
+  }
+}

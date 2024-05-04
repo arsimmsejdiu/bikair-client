@@ -1,0 +1,87 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "types": [
+      "react-native",
+      "jest",
+      "node"
+    ],
+    "lib": [
+      "es2019",
+      "DOM"
+    ],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@containers/*": [
+        "src/containers/*"
+      ],
+      "@contexts/*": [
+        "src/contexts/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@offers/*": [
+        "src/offers/*"
+      ],
+      "@native-modules/*": [
+        "src/native-modules/*"
+      ],
+      "@permissions/*": [
+        "src/permissions/*"
+      ],
+      "@providers/*": [
+        "src/providers/*"
+      ],
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@stacks/*": [
+        "src/stacks/*"
+      ],
+      "@trip-steps/*": [
+        "src/trip-steps/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

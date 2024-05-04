@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>154825594215-1eehfqunpqeq7ttsdu96o29vsim78rio.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.154825594215-1eehfqunpqeq7ttsdu96o29vsim78rio</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>154825594215-gflkv967b4q4lj4tv0516bbj5dh6090e.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD1Se5N0_bkfBm_rhhVKRdc7POsTNZsou4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>154825594215</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bikair.bikair</string>
+	<key>PROJECT_ID</key>
+	<string>bikair-8c4ba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bikair-8c4ba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:154825594215:ios:b319014cfc43aedf60cbc2</string>
+	<key>DATABASE_URL</key>
+	<string>https://bikair-8c4ba.firebaseio.com</string>
+</dict>
+</plist>

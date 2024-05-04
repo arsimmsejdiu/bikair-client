@@ -1,0 +1,17 @@
+/* 
+  Infoplist.strings
+  bikairClient
+
+  Created by Nicolas Apoux on 01/10/2021.
+  
+*/
+
+NSBluetoothAlwaysUsageDescription = "Bik'air wants to use Bluetooth to open and close the lock on the bike";
+NSBluetoothPeripheralUsageDescription = "Bik'air wants to use the Bluetooth  to open the lock on the bike";
+NSCameraUsageDescription = "We need to use the camera to scan the bike QR-Code";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Need to access user location, to track the movement of the user with the bike";
+NSLocationAlwaysUsageDescription = "Require to follow the movement of the user on the bike.";
+NSLocationWhenInUseUsageDescription = "Need to access user location, to track the movement of the user with the bike";
+NSUserTrackingUsageDescription = "We collect the following data when you use the application : location, interactions with customer support, contact information, and Bluetooth connections. Location is mandatory to locate the ebikes around you, Bluetooth connection is mandatory to unlock ebikes, interaction with customer service and contact information are mandatory to address you the best and quickest support.";
+NSPhotoLibraryUsageDescription = "We need this authorization to retrieve the photo taken at the end of your trip.";
+NSMicrophoneUsageDescription = "We need this authorization to use vocal chat with our support widget.";

@@ -1,0 +1,80 @@
+[
+        {
+            "label": "Bequille",
+            "value": "bequille",
+            "sources": "bike-stand"
+        },
+        {
+            "label": "Cadenas",
+            "value": "cadenas",
+            "sources": "bike-lock"
+        },
+        {
+            "label": "Cadre",
+            "value": "cadre",
+            "sources": "bike-frame"
+        },
+        {
+            "label": "Chaine",
+            "value": "chaine",
+            "sources": "bike-chain"
+        },
+        {
+            "label": "Frein",
+            "value": "frein",
+            "sources": "bike-brakes"
+        },
+        {
+            "label": "Guidon",
+            "value": "guidon",
+            "sources": "bike-guidon"
+        },
+        {
+            "label": "Led avant",
+            "value": "ledavant",
+            "sources": "bike-front-light"
+        },
+        {
+            "label": "Panier",
+            "value": "panier",
+            "sources": "bike-basket"
+        },
+        {
+            "label": "Poignee",
+            "value": "poignee",
+            "sources": "bike-handles"
+        },
+        {
+            "label": "Pedales",
+            "value": "pedales",
+            "sources": "bike-pedals"
+        },
+        {
+            "label": "Sonnette",
+            "value": "sonnette",
+            "sources": "bike-bell"
+        },
+        {
+            "label": "Roue arriere",
+            "value": "rouearriere",
+            "sources": "bike-wheel"
+        },
+        {
+            "label": "Roue avant",
+            "value": "roueavant",
+            "sources": "bike-wheel"
+        },
+        {
+            "label": "Led arriere",
+            "value": "ledarriere",
+            "sources": "bike-back-light"
+        },
+        { "label": "QR-code", "value": "qrcode", "sources": "qrcode" },
+        {
+            "label": "Batterie",
+            "value": "batterie",
+            "sources": "bike-battery"
+        },
+        { "label": "Selle", "value": "selle", "sources": "bike-seat" },
+        { "label": "Autre", "value": "autre", "sources": "bike-other" }
+]
